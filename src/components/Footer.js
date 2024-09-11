@@ -12,6 +12,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
+    <>
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto text-center">
         <div className="mb-6">
@@ -87,6 +88,7 @@ const Footer = () => {
         </p>
       </div>
     </footer>
+    </>
   );
 };
 
